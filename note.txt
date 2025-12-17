@@ -1,4 +1,6 @@
 git status
 git add .  / git add "filename"
 git commit -m "message"
-git push  / git push -u origin
+git push  / git push -u origin main/master
+git branch
+git checkout -b branch_name
