@@ -1,0 +1,111 @@
+h1{
+    /* color: red; keyword/text */
+    /* color: #ff0000; 0 to 9 --> a to f hex code */
+    color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.borderone{
+    /* border: 50px solid color; */
+    border-top: 10px solid yellow;
+}
+
+.bordertwo{
+    /* border-style: solid; */
+    /* all four sides */
+    /* top & bottom/ left & right */
+    /* border-style: solid dotted double; */
+    /* top/ left & right/ bottom */
+    /* top/ right/ bottom/ left */
+    border-style: solid dotted double dashed;
+}
+
+.borderthree{
+    border-width: 30px 20px 100px 1px;
+    border-style: solid;
+}
+
+/* margin */
+
+.marginone{
+    /* margin: 50px; */
+    margin-top: 50px;
+
+    border: 2px solid black;
+}
+
+/* padding */
+
+.paddingone{
+    /* padding: 50px 100px; */
+    padding-top: 50px;
+    border: 2px solid black;
+}
+
+/* layout */
+
+.inline{
+    display: inline-block;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.block{
+    border: 1px solid red;
+    width: 400px;
+    display: inline-block;
+}
+
+/* float */
+.float_left img{
+    width: 40%;
+    float: left;
+    margin-right: 40px;
+}
+.clear{
+    clear: both;
+}
+
+.float_right img{
+    width: 40%;
+    float: right;
+    margin-left: 40px;
+}
+.float_right p{
+    text-align: justify;
+}
+
+/* grid */
+.gridone div,.gridtwo div,.gridthree div,.gridfour div {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.gridone,.gridtwo,.gridthree,.gridfour{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridtwo{
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    /* grid-gap: 40px 68px; */
+}
+
+.columnadd{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.rowadd{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+}

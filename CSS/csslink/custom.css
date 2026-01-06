@@ -63,3 +63,8 @@ a:active {
 a:visited {
     color: red;
 }
+
+/* Target */
+div:target{
+    color: rgb(226, 0, 0);
+}
