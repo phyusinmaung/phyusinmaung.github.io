@@ -109,3 +109,54 @@ h1{
     grid-row-end: 4;
     grid-column-start: 3;
 }
+
+/* Position */
+.relative_parent{
+    border: 1px solid green;
+    height: 500px;
+}
+
+.relative{
+    border: 1px solid red;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    top: 5%;
+    left: 10%;
+}
+
+.absolute_parent{
+    border: 1px solid black;
+    height: 500px;
+    position: relative;
+}
+
+.absolute{
+    border: 1px solid yellow;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+.fixed{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+/* Online Font */
+.online_font{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+@font-face{
+    src: url("../static/JosefinSans-Regular.ttf");
+    font-family: "josefin";
+}
+
+.offline_font{
+    font-family: "josefin";
+}
