@@ -22,3 +22,24 @@ let son = null;
 console.log(son);
 console.log(typeof(son));
 
+// Array
+let arr1= new Array('a', 'b', 'c');
+console.log(arr1);
+console.log(typeof(arr1));
+
+// Multiarray
+let multi = ('Mg Mg', 'Aung Aung', 'Hla Hla', ('Tun Tun', 'Mya Mya'), 'Aye Aye');
+console.log(multi);
+console.log(typeof(multi));
+
+// Object
+let student = {
+    // key : value ,
+    name : 'Phyu Sin',
+    age : 21,
+    address : "Yangon",
+    education : "Student"
+}
+console.log(student);
+console.log(typeof(student));
+

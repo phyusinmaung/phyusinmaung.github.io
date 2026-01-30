@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping</title>
+</head>
+<body>
+    <h1>Looping Lessons</h1>
+    <script>
+        // for looping
+        // document.write("<h3>Hello World</h3>");
+
+        // for (initialize; comparsion; update++){
+        // code
+        //}
+
+        for(let num = 1; num<= 5; num++){
+            document.write(`<h3>Hello World ${num} </h3>`);
+        }
+
+        let laptops = ['Dell', 'Hp','Acer','Lenovo','Asus','Macbook','Fujusu'];
+
+        // document.write(`I want this ${laptops[3]}`);
+
+        for(let i = 0; i < laptops.length; i++) {
+            document.write(`I want this ${laptops[i]} <br>`);
+        }
+
+        // *
+        // **
+        // ***
+        // ****
+        // *****
+
+        for(let h = 0; h <5; h++){
+            
+            for(let i = 0; i <= h; i++){
+                document.write(`*`);
+            }
+            document.write(`<br>`);
+        }
+
+        // homework
+        // *****
+        // ****
+        // ***
+        // **
+        // *
+
+        // while looping
+
+        // while(condition){
+        // code
+        // update
+        //}
+
+        let num = 300;
+        while(num > 100){
+            document.write(`Your number is ${num} <br>`);
+
+            // update
+            num -= 5;
+        }
+
+        // do while
+        // do {
+        //    // code
+
+        //    // update
+        // } while (condition);
+
+        let no = 10;
+        do{
+            document.write(`Your Number is ${no} <br>`);
+
+
+            // update
+            no -= 2;
+        }while( no > 5);
+
+    </script>
+</body>
+</html>
