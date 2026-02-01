@@ -1,0 +1,52 @@
+.clock {
+  width: 350px;
+  margin: 40px auto;
+  background-color: black;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: #00ff66;
+  box-shadow: inset 0 0 10px #000;
+}
+
+/* Day */
+.day {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+/* Date */
+.date {
+  font-size: 20px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+/* Time */
+#time {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* Seconds */
+.seconds {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+/* AM PM */
+.am_pm {
+  font-size: 16px;
+  margin-left: 8px;
+  margin-top: 14px;
+}
+
+/* LED glow */
+.day,
+.date,
+#time,
+.seconds,
+.am_pm {
+  text-shadow: 0 0 8px #00ff66;
+}

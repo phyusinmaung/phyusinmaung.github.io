@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voucher</title>
+</head>
+<body>
+    <h1>Voucher</h1>
+
+    <form action="">
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name"> <br>
+
+        <label for="price">Price</label> <br>
+        <input type="number" id="price" name="price"> <br>
+
+        <label for="qty">Qty</label> <br>
+        <input type="number" id="qty" name="qty"> <br> <br>
+
+        <button type="button" onclick="addData()">Add</button>
+    </form>
+
+    <h1>Voucher No</h1>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="4" align="center"><strong>Grand Total</strong></td>
+            <td id="grandTotal"></td>
+        </tr>
+    </tfoot>
+    </table>
+
+    <script>
+        var products = [];
+        function addData (){
+            // get input values
+            let name = document.getElementById('name').value;
+            let price = document.getElementById('price').value;
+            let qty = document.getElementById('qty').value;
+            let total = price * qty;
+
+            // console.log(name);
+            // console.log(price);
+            // console.log(qty);
+            // console.log(total);
+            
+
+            // create object
+            let product = {
+                productName: name,
+                productPrice: price,
+                productQty: qty,
+                productTotal: total,
+            }
+            // console.log(product);
+            
+            products.push(product);
+            // console.log(products);
+
+            // show data in table
+            let html = '';
+            for (let i = 0; i < products.length; i++) {
+                html += `<tr>
+                            <td>${i+1}</td>
+                            <td>${products[i].productName}</td>
+                            <td>${products[i].productPrice}</td>
+                            <td>${products[i].productQty}</td>
+                            <td>${products[i].productTotal}</td>
+                        </tr>`;               
+            }
+
+            document.getElementById('table').innerHTML = html;  
+
+            // grandTotal
+            let grandTotal = 0;
+            for (let i = 0; i < products.length; i++) {
+                grandTotal += products[i].productTotal;
+            }
+
+        document.getElementById('grandTotal').innerText = grandTotal;
+    }
+    
+
+        
+    </script>
+</body>
+</html>
