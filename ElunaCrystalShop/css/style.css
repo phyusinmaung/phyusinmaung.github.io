@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "lato";
+    src: url("../font/Lato.txt");
+}
+
+* {
+    font-family: "lato";
+}
+
+#web_background {
+    background-color: #292b52;
+}
+
+/* Start Nav */
+
+.crystal_video {
+    width: 100%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navbar {
+    background-color: #292b52;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link.active {
+    color: #d4af37 !important;
+    font-weight: 600;
+}
+
+.nav_hover:hover {
+    color: #d4af37 !important;
+}
+
+.service_card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service_card:hover {
+    transform: translateY(-5px);
+}
+
+.service_card button {
+    z-index: 10;
+}
+
+/* End Nav */
+
+/* Start Banner */
+
+.banner_vd {
+    object-fit: cover;
+    max-height: 500px;
+    width: 100%;
+}
+
+.overlay {
+    max-height: 500px;
+}
+
+/* End Banner */
+
+/* Start New Arrivals */
+
+.title_underline {
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.favourite_btn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End New Arrivals */
+
+/* Start Categories */
+
+.card-img-top {
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    overflow: hidden;
+}
+
+/* End Categories */

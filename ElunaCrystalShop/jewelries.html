@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eluna Crystal Shop</title>
+        <meta name="description"
+            content="Your go-to spot for stylish pieces that make you feel confident and effortlessly cute. From everyday essentials to statement outfits, we bring you trendy finds.">
+        <meta name="keywords"
+            content="crystal shop, crystal, Eluna, Eluna Crystal Shop ">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="EN">
+
+        <!--Nav Icon-->
+        <link rel="icon" href="images/Logo/logo.png">
+
+        <!--Custom Css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!--Icon-->
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <script src="fontawesome/js/all.min.js"></script>
+
+    </head>
+    <body id="web_background" style="padding-top: 70px;">
+        <!--Start Nav-->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <!--Logo-->
+                <a class="logo" href="index.html"><img
+                        src="images/Logo/rem_logo.png" alt></a>
+
+                <!-- Hamburger menu-->
+                <button class="navbar-toggler text-light" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end"
+                    id="mainNavbar">
+                    <ul class="navbar-nav mb-4 mb-lg-0">
+
+                        <!--Home-->
+                        <li class="nav-item me-3">
+                            <a class="nav-link nav_hover text-white"
+                                href="index.html">Home</a>
+                        </li>
+
+                        <!-- Crystals Dropdown -->
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link nav_hover active dropdown-toggle"
+                                href="crystals.html"
+                                data-bs-toggle="dropdown">Crystals</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Raw
+                                        Crystals</a></li>
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Tower
+                                        Points</a></li>
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Suncatchers</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Zodiac
+                                        Necklaces</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Pendants</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Bracelets</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Necklaces</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Cleansing & Ritual Dropdown -->
+                        <li class="nav-item text-white dropdown me-3">
+                            <a
+                                class="nav-link nav_hover dropdown-toggle text-white"
+                                href="cleansing_products.html"
+                                data-bs-toggle="dropdown">Cleansing & Ritual</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Candles</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Bath
+                                        Salts</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Sage</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Incense</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Beauty Products -->
+                        <li class="nav-item me-3">
+                            <a class="nav-link nav_hover text-white"
+                                href="beauty.html">Beauty Products</a>
+                        </li>
+
+                        <!-- Crystal Properties -->
+                        <li class="nav-item me-3">
+                            <a class="nav-link nav_hover text-white"
+                                href="properties.html">Crystal Care &
+                                Properties</a>
+                        </li>
+
+                        <!--Contact-->
+                        <li class="nav-item me-4">
+                            <a class="nav-link nav_hover text-white"
+                                href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Icons -->
+                    <div class="d-flex mb-4 mb-lg-0 list-unstyled">
+                        <li class="nav-item me-4"><a href="favorites.html"
+                                class="nav-link nav_hover text-white"
+                                title="Favourites"><i
+                                    class="fa-regular fa-heart fa-xl"></i></a>
+                        </li>
+                        <li class="nav-item me-4"><a href="login.html"
+                                class="nav-link nav_hover text-white"
+                                title="Login"><i
+                                    class="fa-regular fa-user fa-xl"></i></a>
+                        </li>
+                        <li class="nav-item me-4"><a href="cart.html"
+                                class="nav-link nav_hover text-white"
+                                title="Cart"><i
+                                    class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                        </li>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!--End Nav-->
+
+        <!--Start Jewelries-->
+        <div class="py-5 text-white">
+            <div class="container">
+
+                <!-- Page Title -->
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">Charmed & Crystal</h2>
+                    <hr class="border-light w-25 mx-auto mb-3">
+                    <p>Accessorize with sparkle, energy, and intention.</p>
+                </div>
+
+                <!-- Filter & Sort Row -->
+                <div
+                    class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+
+                    <!-- Filter Dropdown -->
+                    <div class="dropdown">
+                        <button class="btn btn-outline-light dropdown-toggle"
+                            type="button" id="filterDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Filter
+                        </button>
+                        <div class="dropdown-menu p-4"
+                            style="min-width: 250px; background-color: rgba(255,255,255,0.95);">
+
+                            <!-- Type -->
+                            <h6 class="text-dark fw-semibold mb-2">Type</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="raw">
+                                <label class="form-check-label text-dark"
+                                    for="raw">Pendant</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="tower">
+                                <label class="form-check-label text-dark"
+                                    for="tower">Bracelet</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="tower">
+                                <label class="form-check-label text-decoration-line-through text-dark"
+                                    for="tower">Ring</label><span> (Out of stock)</span>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox"
+                                    id="tower">
+                                <label class="form-check-label text-dark"
+                                    for="tower">Necklace</label>
+                            </div>
+
+                            <!-- Zodiac -->
+                            <h6 class="text-dark fw-semibold mb-2">Zodiac</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="clear">
+                                <label class="form-check-label text-dark"
+                                    for="clear">Aries</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="pink">
+                                <label class="form-check-label text-dark"
+                                    for="pink">Taurus</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Gemini</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Cancer</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Leo</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Virgo</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Libra</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Scorpio</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Sagittarius</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Capricorn</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="green">
+                                <label class="form-check-label text-dark"
+                                    for="green">Aquarius</label>
+                            </div>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox"
+                                    id="purple">
+                                <label class="form-check-label text-dark"
+                                    for="purple">Pisces</label>
+                            </div>
+
+                            <!-- Material -->
+                            <h6
+                                class="text-dark fw-semibold mb-2">Material</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="love">
+                                <label class="form-check-label text-dark"
+                                    for="love">Gold Tone</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="protection">
+                                <label class="form-check-label text-dark"
+                                    for="protection">Silver Tone</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="healing">
+                                <label class="form-check-label text-dark"
+                                    for="healing">Rose Gold</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox"
+                                    id="abundance">
+                                <label class="form-check-label text-dark"
+                                    for="abundance">Stainless Steel</label>
+                            </div>
+
+                            <!-- Price -->
+                            <h6 class="text-dark fw-semibold mb-2">Price</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="under25">
+                                <label class="form-check-label text-dark"
+                                    for="under25">Under $25</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="25-50">
+                                <label class="form-check-label text-dark"
+                                    for="25-50">$25 – $50</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="50-100">
+                                <label class="form-check-label text-dark"
+                                    for="50-100">$50 – $100</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox"
+                                    id="100plus">
+                                <label class="form-check-label text-dark"
+                                    for="100plus">$100+</label>
+                            </div>
+
+                            <button
+                                class="btn btn-outline-dark w-100 mt-2">Apply
+                                Filters</button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Sort Dropdown -->
+                    <div class="dropdown mt-2 mt-md-0">
+                        <button class="btn btn-outline-light dropdown-toggle"
+                            type="button" id="sortDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sort
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="#">Newest</a></li>
+                            <li><a class="dropdown-item" href="#">Price: Low to
+                                    High</a></li>
+                            <li><a class="dropdown-item" href="#">Price: High to
+                                    Low</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!--Pendant-->
+                <h3 class="text-white fw-bold mt-5 mb-3 text-center">Pendants</h3>
+                <hr class="border-light">
+                <div
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Pendant/p1.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Clear Quartz</h5>
+                            <div class="mb-3">
+                                <p>Clarity and positive vibes</p>
+                                <p>Price : 11,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Pendant/p2.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Mini Garden</h5>
+                            <div class="mb-3">
+                                <p>Calm, fresh, and grounded</p>
+                                <p>Price : 10,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Pendant/p3.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Luna</h5>
+                            <div class="mb-3">
+                                <p>Moonlight energy for your soul</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Pendant/p4.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Ocean Soul</h5>
+                            <div class="mb-3">
+                                <p>Mermaid vibes, ocean energy</p>
+                                <p>Price : 10,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Pendant/p6.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Sky Whispers</h5>
+                            <div class="mb-3">
+                                <p>Soft energy, like a gentle sky</p>
+                                <p>Price : 10,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Pendant/p7.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Sweetheart Charms</h5>
+                            <div class="mb-3">
+                                <p>Carry love wherever you go</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Pendant/p8.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Amethyst</h5>
+                            <div class="mb-3">
+                                <p>Calm • Clarity • Protection</p>
+                                <p>Price : 10,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Pendant/p9.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Heart of Dreams</h5>
+                            <div class="mb-3">
+                                <p>Princess vibe</p>
+                                <p>Price : 13,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Bracelet-->
+                <h3 class="text-white fw-bold mt-5 mb-3 text-center">Bracelets</h3>
+                <hr class="border-light">
+                <div
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bracelet/blood_moon.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Blood Moon</h5>
+                            <p>Price : 10,000 MMK</p>
+                            <div class="mb-3">
+
+                            </div>
+                            <div class="mb-2">
+                                <a href="" class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bracelet/blue_moon.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Blue Moon</h5>
+                            <p>Price : 10,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bracelet/cherry_bloosm.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Cherry Bloosm</h5>
+                            <p>Price : 10,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bracelet/cotton_candy.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Cotton Candy</h5>
+                            <p>Price : 10,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bracelet/garden_fairy.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Garden Fairy</h5>
+                            <p>Price : 10,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bracelet/midnight.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Midnight</h5>
+                            <p>Price : 10,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bracelet/purple_moon.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Purple Moon</h5>
+                            <p>Price : 10,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bracelet/rose_garden.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Rose Garden</h5>
+                            <p>Price : 10,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Necklace-->
+                <h3 class="text-white fw-bold mt-5 mb-3 text-center">Necklaces</h3>
+                <hr class="border-light">
+                <div
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Chocker/c1.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Noir Elegance</h5>
+                            <p>Price : 18,000 MMK</p>
+                            <div class="mb-3">
+
+                            </div>
+                            <div class="mb-2">
+                                <a href="" class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Chocker/c2.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Opal Glow</h5>
+                            <p>Price : 13,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Chocker/c3.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Lunar Veil</h5>
+                            <p>Price : 13,500 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Chocker/c11.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Twilight Grace</h5>
+                            <p>Price : 13,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Chocker/c4.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Garden Mist</h5>
+                            <p>Price : 14,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Chocker/c6.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Shadow & Light (Twin)</h5>
+                            <p>Price : 15,000 MMK for both</p>
+                            <div class="mb-3">
+                    
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Chocker/c7.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Divine Aura</h5>
+                            <p>Price : 13,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Chocker/c9.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Angelic Glow</h5>
+                            <p>Price : 13,500 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Zodiac-->
+                <h3 class="text-white fw-bold mt-5 mb-3 text-center">Zodiacs</h3>
+                <hr class="border-light">
+                <div
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Aries.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-fire"></i> Aries</h5>
+                            <div class="mb-3">
+                                <p>Bold, adventurous, full of energy</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Taurus.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-earth-americas"></i> Taurus</h5>
+                            <div class="mb-3">
+                                <p>Grounded, patient, loves comfort</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Gemini.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-wind"></i> Gemini</h5>
+                            <div class="mb-3">
+                                <p>Curious, social, always learning</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Cancer.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-water"></i> Cancer</h5>
+                            <div class="mb-3">
+                                <p>Emotional, nurturing, protective</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Leo.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-fire"></i> Leo</h5>
+                            <div class="mb-3">
+                                <p>Confident, warm, natural leader</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Virgo.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-earth-americas"></i> Virgo</h5>
+                            <div class="mb-3">
+                                <p>Detail-oriented, practical, helpful</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Libra.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-wind"></i> Libra</h5>
+                            <div class="mb-3">
+                                <p>Balanced, charming, peace-seeker</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Scorpio.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-water"></i> Scorpio</h5>
+                            <div class="mb-3">
+                                <p>Intense, passionate, mysterious</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Sagittarius.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-fire"></i> Sagittarius</h5>
+                            <div class="mb-3">
+                                <p>Optimistic, adventurous, free-spirited</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Capricorn.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-earth-americas"></i> Capricorn</h5>
+                            <div class="mb-3">
+                                <p>Ambitious, disciplined, responsible</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Aquarius.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-wind"></i> Aquarius</h5>
+                            <div class="mb-3">
+                                <p>Innovative, independent, visionary</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Zodiac/Pieces.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5><i class="fa-solid fa-water"></i> Pieces</h5>
+                            <div class="mb-3">
+                                <p>Dreamy, intuitive, empathetic</p>
+                                <p>Price : 12,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--End Jewelries-->
+
+        <!--Start Footer-->
+        <footer class="bg-dark text-white pt-4 pb-3">
+            <div class="container">
+
+                <div class="row">
+                    <div
+                        class="col-12 col-md-4 mb-4 text-center text-md-start">
+                        <img src="images/Logo/rem_logo.png" alt
+                            class="w-50">
+                    </div>
+
+                    <div
+                        class="col-6 col-md-2 mb-4 text-center text-md-start pe-3">
+                        <h6 class="fw-bold">Shop</h6>
+                        <ul class="list-unstyled mt-3">
+                            <li><a href="crystals.html"
+                                    class="text-decoration-none nav_hover text-white">Crystals</a></li>
+                            <li><a href="cleansing_products.html"
+                                    class="text-decoration-none nav_hover text-white">Cleansing
+                                    & Ritual</a></li>
+                            <li><a href="beauty.html"
+                                    class="text-decoration-none nav_hover text-white">Beauty
+                                    Products</a></li>
+                            <li><a href="properties.html"
+                                    class="text-decoration-none nav_hover text-white">Crystal
+                                    Care & Properties</a></li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="col-6 col-md-3 mb-4 text-center text-md-start pe-3">
+                        <h6 class="fw-bold">Customer Support</h6>
+                        <ul class="list-unstyled mt-3">
+                            <li><a href="#"
+                                    class="text-light nav_hover text-decoration-none">FAQs</a></li>
+                            <li><a href="#"
+                                    class="text-light nav_hover text-decoration-none"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#shippingModal">Shipping
+                                    & Returns</a></li>
+                            <li><a href="contact.html"
+                                    class="text-light nav_hover text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div
+                        class="col-12 col-md-3 mb-4 text-center text-md-start">
+                        <h6 class="fw-bold">Follow Us</h6>
+                        <div
+                            class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+                            <a href="#" class="text-light fs-5"
+                                title="Facebook"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="text-light fs-5"
+                                title="Instagram"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="text-light fs-5"
+                                title="Telegram"><i
+                                    class="fa-brands fa-telegram"></i></a>
+                            <a href="#" class="text-light fs-5"
+                                title="Tiktok"><i
+                                    class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class="border-light border-opacity-25">
+                <div class="text-center small text-light">
+                    © 2026 Eluna. All rights reserved.
+                </div>
+
+            </div>
+        </footer>
+        <!--Shipping Modal-->
+        <div class="modal fade" id="shippingModal" tabindex="-1"
+            aria-labelledby="shippingModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark text-white">
+
+                    <div class="modal-header border-bottom-light">
+                        <h5 class="modal-title"
+                            id="shippingModalLabel">Shipping
+                            & Returns</h5>
+                        <button type="button"
+                            class="btn-close btn-close-white"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p><strong>Shipping:</strong> We ship worldwide!
+                            Most
+                            orders are processed within 2–3 business days
+                            and
+                            include tracking information.</p>
+                        <p><strong>Returns:</strong> Returns and exchanges
+                            are
+                            accepted within 14 days of delivery. Crystals
+                            are
+                            delicate, so please handle them gently.</p>
+                        <p>For more details, reach out via our <a
+                                href="contact.html"
+                                class="text-white text-decoration-underline">Contact
+                                page</a>.</p>
+                    </div>
+
+                    <div class="modal-footer border-top-light">
+                        <button type="button" class="btn btn-light"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--End Footer-->
+    </body>
+</html>

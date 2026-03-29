@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eluna Crystal Shop</title>
+        <meta name="description"
+            content="Your go-to spot for stylish pieces that make you feel confident and effortlessly cute. From everyday essentials to statement outfits, we bring you trendy finds.">
+        <meta name="keywords"
+            content="crystal shop, crystal, Eluna, Eluna Crystal Shop ">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="EN">
+
+        <!--Nav Icon-->
+        <link rel="icon" href="images/Logo/logo.png">
+
+        <!--Custom Css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!--Icon-->
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <script src="fontawesome/js/all.min.js"></script>
+
+    </head>
+    <body id="web_background" style="padding-top: 70px;">
+
+        <!--Start Nav-->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <!--Logo-->
+                <a class="logo" href="index.html"><img
+                        src="images/Logo/rem_logo.png" alt></a>
+
+                <!-- Hamburger menu-->
+                <button class="navbar-toggler text-light" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end"
+                    id="mainNavbar">
+                    <ul class="navbar-nav mb-4 mb-lg-0">
+
+                        <!--Home-->
+                        <li class="nav-item me-3">
+                            <a class="nav-link nav_hover text-white"
+                                href="index.html">Home</a>
+                        </li>
+
+                        <!-- Crystals Dropdown -->
+                        <li class="nav-item dropdown me-3">
+                            <a
+                                class="nav-link text-white nav_hover dropdown-toggle"
+                                href="crystals.html"
+                                data-bs-toggle="dropdown">Crystals</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Raw
+                                        Crystals</a></li>
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Tower
+                                        Points</a></li>
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Suncatchers</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Zodiac
+                                        Necklaces</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Pendants</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Bracelets</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Necklaces</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Cleansing & Ritual Dropdown -->
+                        <li class="nav-item text-white dropdown me-3">
+                            <a
+                                class="nav-link nav_hover active dropdown-toggle text-white"
+                                href="cleansing_products.html"
+                                data-bs-toggle="dropdown">Cleansing & Ritual</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Candles</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Bath
+                                        Salts</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Sage</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Incense</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Beauty Products -->
+                        <li class="nav-item me-3">
+                            <a class="nav-link nav_hover text-white"
+                                href="beauty.html">Beauty Products</a>
+                        </li>
+
+                        <!-- Crystal Properties -->
+                        <li class="nav-item me-3">
+                            <a class="nav-link nav_hover text-white"
+                                href="properties.html">Crystal Care &
+                                Properties</a>
+                        </li>
+
+                        <!--Contact-->
+                        <li class="nav-item me-4">
+                            <a class="nav-link nav_hover text-white"
+                                href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Icons -->
+                    <div class="d-flex mb-4 mb-lg-0 list-unstyled">
+                        <li class="nav-item me-4"><a href="favorites.html"
+                                class="nav-link nav_hover text-white"
+                                title="Favourites"><i
+                                    class="fa-regular fa-heart fa-xl"></i></a>
+                        </li>
+                        <li class="nav-item me-4"><a href="login.html"
+                                class="nav-link nav_hover text-white"
+                                title="Login"><i
+                                    class="fa-regular fa-user fa-xl"></i></a>
+                        </li>
+                        <li class="nav-item me-4"><a href="cart.html"
+                                class="nav-link nav_hover text-white"
+                                title="Cart"><i
+                                    class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                        </li>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!--End Nav-->
+
+        <!--Start Cleansing & Ritual-->
+        <div class="py-5 text-white">
+            <div class="container">
+
+                <!-- Page Title -->
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">Cleansing & Rituals</h2>
+                    <hr class="border-light w-25 mx-auto mb-3">
+                    <p>Tools and treasures to cleanse, relax, and restore your
+                        energy.</p>
+                </div>
+
+                <!-- Filter & Sort Row -->
+                <div
+                    class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+
+                    <!-- Filter Dropdown -->
+                    <div class="dropdown">
+                        <button class="btn btn-outline-light dropdown-toggle"
+                            type="button" id="filterDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Filter
+                        </button>
+                        <div class="dropdown-menu p-4"
+                            style="min-width: 250px; background-color: rgba(255,255,255,0.95);">
+
+                            <!-- Type -->
+                            <h6 class="text-dark fw-semibold mb-2">Type</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="raw">
+                                <label class="form-check-label text-dark"
+                                    for="raw">Bath Salt</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="tower">
+                                <label class="form-check-label text-dark"
+                                    for="tower">Gift Set</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="tower">
+                                <label class="form-check-label text-dark"
+                                    for="tower">Scented Candle</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox"
+                                    id="tower">
+                                <label class="form-check-label text-dark"
+                                    for="tower">Sage & incense</label>
+                            </div>
+
+                            <!-- Scent -->
+                            <h6
+                                class="text-dark fw-semibold mb-2">Scent</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="love">
+                                <label class="form-check-label text-dark"
+                                    for="love">Lavender</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="protection">
+                                <label class="form-check-label text-dark"
+                                    for="protection">Rose</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="protection">
+                                <label class="form-check-label text-dark"
+                                    for="protection">Jasmine</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="healing">
+                                <label class="form-check-label text-dark"
+                                    for="healing">Sandalwood</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="protection">
+                                <label class="form-check-label text-dark"
+                                    for="protection">Citrus</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox"
+                                    id="abundance">
+                                <label class="form-check-label text-dark"
+                                    for="abundance">Vanilla</label>
+                            </div>
+
+                            <!-- Price -->
+                            <h6 class="text-dark fw-semibold mb-2">Price</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="under25">
+                                <label class="form-check-label text-dark"
+                                    for="under25">Under $25</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="25-50">
+                                <label class="form-check-label text-dark"
+                                    for="25-50">$25 – $50</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="50-100">
+                                <label class="form-check-label text-dark"
+                                    for="50-100">$50 – $100</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox"
+                                    id="100plus">
+                                <label class="form-check-label text-dark"
+                                    for="100plus">$100+</label>
+                            </div>
+
+                            <button
+                                class="btn btn-outline-dark w-100 mt-2">Apply
+                                Filters</button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Sort Dropdown -->
+                    <div class="dropdown mt-2 mt-md-0">
+                        <button class="btn btn-outline-light dropdown-toggle"
+                            type="button" id="sortDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sort
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="#">Newest</a></li>
+                            <li><a class="dropdown-item" href="#">Price: Low to
+                                    High</a></li>
+                            <li><a class="dropdown-item" href="#">Price: High to
+                                    Low</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!--Bath Salt-->
+                <h3 class="text-white fw-bold mt-5 mb-3 text-center">Bath
+                    Salts</h3>
+                <hr class="border-light">
+                <div
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bath_Salt/lavender.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5 class="mb-3">Lavender Bath</h5>
+                            <div class="mb-3">
+                                <p> <i class="fa-solid fa-spa fa-xs"></i>
+                                    Relieves stress and tension</p>
+                                <p> <i class="fa-solid fa-spa fa-xs"></i>
+                                    Promotes restful sleep</p>
+                                <p> <i class="fa-solid fa-spa fa-xs"></i> Calms
+                                    the mind and body</p>
+                                    <p>Price : 15,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bath_Salt/jasmine.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5 class="mb-3">Jasmine Bath</h5>
+                            <div class="mb-3">
+                                <p><i class="fa-solid fa-spa fa-xs"></i> Uplifts
+                                    mood and energy</p>
+                                <p><i class="fa-solid fa-spa fa-xs"></i>
+                                    Enhances relaxation and joy</p>
+                                <p><i class="fa-solid fa-spa fa-xs"></i> Soothes
+                                    anxiety and fatigue</p>
+                                    <p>Price : 15,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bath_Salt/rose.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5 class="mb-3">Rose Bath</h5>
+                            <div class="mb-3">
+                                <p><i class="fa-solid fa-spa fa-xs"></i>
+                                    Encourages self-love</p>
+                                <p><i class="fa-solid fa-spa fa-xs"></i> Softens
+                                    skin naturally</p>
+                                <p><i class="fa-solid fa-spa fa-xs"></i>
+                                    Promotes heart-centered calm</p>
+                                    <p>Price : 15,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Bath_Salt/ritual_bath.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5 class="mb-3">Ritual Bath</h5>
+                            <div class="mb-3">
+                                <p><i class="fa-solid fa-spa fa-xs"></i>
+                                    Cleanses negative energy</p>
+                                <p><i class="fa-solid fa-spa fa-xs"></i>
+                                    Supports meditation & intention</p>
+                                <p><i class="fa-solid fa-spa fa-xs"></i>
+                                    Recharges mind, body, and spirit</p>
+                                    <p>Price : 14,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Candle-->
+                <h3 class="text-white fw-bold mt-5 mb-3 text-center">Scented Candles</h3>
+                <hr class="border-light">
+                <div
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Candle/chakra_healing.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Chakra Healing</h5>
+                            <div class="mb-3">
+                                <p>A ritual candle crafted to activate, cleanse, and balance your chakras</p>
+                                <p>Price : 24,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Candle/enchanted_spell.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Enchanted Spell</h5>
+                            <div class="mb-3">
+                                <p>Designed to fill your room with an alluring, captivating aura</p>
+                                <p>Price : 24,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Candle/evil_protection.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Evil Protection</h5>
+                            <div class="mb-3">
+                                <p>Created to purify your surroundings and invite peace and safety</p>
+                                <p>Price : 24,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Candle/fairy_garden.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Fairy Garden</h5>
+                            <div class="mb-3">
+                                <p>A whimsical glow for dreamy, fairy-tale moments</p>
+                                <p>Price : 24,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Candle/inner_peace.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Inner Peace</h5>
+                            <div class="mb-3">
+                                <p>A gentle blend that promotes relaxation, mindfulness, and balance</p>
+                                <p>Price : 24,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Candle/luna.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Luna</h5>
+                            <div class="mb-3">
+                                <p>A moonlit candle crafted to inspire calm and intuition</p>
+                                <p>Price : 24,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Candle/paradise_on_earth.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Paradise On Earth</h5>
+                            <div class="mb-3">
+                                <p>Crafted to bring a touch of paradise and a calming, uplifting atmosphere</p>
+                                <p>Price : 24,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Candle/self_love.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Self Love</h5>
+                            <div class="mb-3">
+                                <p>A soothing glow that inspires confidence, care, and compassion</p>
+                                <p>Price : 24,000 MMK</p>
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Gift Sets -->
+            <div class="py-4" style="background-color: rgba(0,0,0,0.5);">
+                <div class="container">
+                    <h3 class="text-white fw-bold mt-5 mb-3 text-center">Gift
+                        Sets</h3>
+                    <hr class="border-light">
+                    <p class="text-center text-white mb-4">Perfectly curated
+                        sets
+                        for relaxation, cleansing, and magical vibes.</p>
+
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3 justify-content-center">
+                        <!-- Gift Set 1 -->
+                        <div class="col mb-3">
+                            <div
+                                class="card text-center position-relative service_card shadow bg-transparent">
+                                <button
+                                    class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0"
+                                    title="Add to Favourites">
+                                    <i class="fa-regular fa-heart fa-xl"></i>
+                                </button>
+                                <img src="images/Gift_Set/bath_salt_kit.jpg"
+                                    alt="Gift Set 1"
+                                    class="">
+                            </div>
+                            <div class="card-body text-white mt-3 ms-2">
+                                <h5>Bath Salt Set</h5>
+                                <div class="mb-3">
+                                    <p>A soothing collection of mineral bath
+                                        blends designed to relax, restore, and
+                                        elevate your self-care ritual.</p>
+                                        <p>Price : <span class="text-decoration-line-through me-2"> 40,000 MMK </span>37,000 MMK</p>
+                                </div> 
+                                <div class="mb-2">
+                                    <a href="#"
+                                        class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                        <i
+                                            class="fa-solid fa-cart-shopping"></i>
+                                        Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gift Set 2 -->
+                        <div class="col mb-3">
+                            <div
+                                class="card text-center position-relative service_card shadow bg-transparent">
+                                <button
+                                    class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0"
+                                    title="Add to Favourites">
+                                    <i class="fa-regular fa-heart fa-xl"></i>
+                                </button>
+                                <img src="images/Gift_Set/lavender_kit.jpg"
+                                    alt="Gift Set 2"
+                                    class="">
+                            </div>
+                            <div class="card-body text-white mt-3 ms-2">
+                                <h5>Lavender Set</h5>
+                                <div class="mb-3">
+                                    <p>A full relaxation bath collection designed to relax
+                                        the body and promote restful sleep.</p>
+                                        <p>Price : 42,000 MMK</p>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="#"
+                                        class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                        <i
+                                            class="fa-solid fa-cart-shopping"></i>
+                                        Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gift Set 3 -->
+                        <div class="col mb-3">
+                            <div
+                                class="card text-center position-relative service_card shadow bg-transparent">
+                                <button
+                                    class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0"
+                                    title="Add to Favourites">
+                                    <i class="fa-regular fa-heart fa-xl"></i>
+                                </button>
+                                <img src="images/Gift_Set/meditation_kit.jpg"
+                                    alt="Gift Set 3"
+                                    class="">
+                            </div>
+                            <div class="card-body text-white mt-3 ms-2">
+                                <h5>Meditation Set</h5>
+                                <div class="mb-3">
+                                    <p>A peaceful set created to cleanse energy
+                                        and support mindful rituals.</p>
+                                        <p>Price : <span class="text-decoration-line-through me-2"> 32,000 MMK </span>30,000 MMK</p>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="#"
+                                        class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                        <i
+                                            class="fa-solid fa-cart-shopping"></i>
+                                        Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Cleansing Tools-->
+            <div class="container py-3">
+                <h3 class="text-white fw-bold mt-5 mb-3 text-center">Cleansing Tools</h3>
+                <hr class="border-light">
+                <div
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Cleansing_tools/floral_white_sage_stick.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Floral White Sage Stick</h5>
+                            <p>Price : 13,000 MMK per stick</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Cleansing_tools/lavender_bundle.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Lavender Bundle</h5>
+                            <p>Price : 14,000 MMK per stick</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Cleansing_tools/rose_quartz_sage_bundle.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Rose Quartz Sage Bundle</h5>
+                            <p>Price : 15,000 MMK per stick</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Cleansing_tools/wild_flower+white_sage.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Wild Flower + White Sage</h5>
+                            <p>Price : 13,000 MMK per stick</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Cleansing_tools/cedar_earth.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Cedar Earth</h5>
+                            <p>Price : 4,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Cleansing_tools/lavender.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Lavender</h5>
+                            <p>Price : 4,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Cleansing_tools/rose.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Rose</h5>
+                            <p>Price : 4,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-3">
+                        <div
+                            class="card text-center position-relative service_card shadow bg-transparent">
+                            <button
+                                class="position-absolute btn btn-outline-dark top-0 end-0 rounded-pill m-2 border-0 align-items-center"
+                                title="Add to Favourites">
+                                <i
+                                    class="fa-regular fa-heart justify-content-center fa-xl"></i>
+                            </button>
+                            <img src="images/Cleansing_tools/sandalwood.jpg" alt
+                                class="card-img-top rounded-4">
+                        </div>
+                        <div class="card-body text-white mt-3 ms-2">
+                            <h5>Sandalwood</h5>
+                            <p>Price : 4,000 MMK</p>
+                            <div class="mb-3">
+                                
+                            </div>
+                            <div class="mb-2">
+                                <a href
+                                    class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+            <!--End Cleansing & Ritual--->
+
+            <!--Start Footer-->
+            <footer class="bg-dark text-white pt-4 pb-3">
+                <div class="container">
+
+                    <div class="row">
+                        <div
+                            class="col-12 col-md-4 mb-4 text-center text-md-start">
+                            <img src="images/Logo/rem_logo.png" alt
+                                class="w-50">
+                        </div>
+
+                        <div
+                            class="col-6 col-md-2 mb-4 text-center text-md-start pe-3">
+                            <h6 class="fw-bold">Shop</h6>
+                            <ul class="list-unstyled mt-3">
+                                <li><a href="crystals.html"
+                                        class="text-decoration-none nav_hover text-white">Crystals</a></li>
+                                <li><a href="cleansing_products.html"
+                                        class="text-decoration-none nav_hover text-white">Cleansing
+                                        & Ritual</a></li>
+                                <li><a href="beauty.html"
+                                        class="text-decoration-none nav_hover text-white">Beauty
+                                        Products</a></li>
+                                <li><a href="properties.html"
+                                        class="text-decoration-none nav_hover text-white">Crystal
+                                        Care & Properties</a></li>
+                            </ul>
+                        </div>
+
+                        <div
+                            class="col-6 col-md-3 mb-4 text-center text-md-start pe-3">
+                            <h6 class="fw-bold">Customer Support</h6>
+                            <ul class="list-unstyled mt-3">
+                                <li><a href="#"
+                                        class="text-light nav_hover text-decoration-none">FAQs</a></li>
+                                <li><a href="#"
+                                        class="text-light nav_hover text-decoration-none"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#shippingModal">Shipping
+                                        & Returns</a></li>
+                                <li><a href="contact.html"
+                                        class="text-light nav_hover text-decoration-none">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Social Icons -->
+                        <div
+                            class="col-12 col-md-3 mb-4 text-center text-md-start">
+                            <h6 class="fw-bold">Follow Us</h6>
+                            <div
+                                class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+                                <a href="#" class="text-light fs-5"
+                                    title="Facebook"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="#" class="text-light fs-5"
+                                    title="Instagram"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-light fs-5"
+                                    title="Telegram"><i
+                                        class="fa-brands fa-telegram"></i></a>
+                                <a href="#" class="text-light fs-5"
+                                    title="Tiktok"><i
+                                        class="fa-brands fa-tiktok"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr class="border-light border-opacity-25">
+                    <div class="text-center small text-light">
+                        © 2026 Eluna. All rights reserved.
+                    </div>
+
+                </div>
+            </footer>
+            <!--Shipping Modal-->
+            <div class="modal fade" id="shippingModal" tabindex="-1"
+                aria-labelledby="shippingModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content bg-dark text-white">
+
+                        <div class="modal-header border-bottom-light">
+                            <h5 class="modal-title"
+                                id="shippingModalLabel">Shipping
+                                & Returns</h5>
+                            <button type="button"
+                                class="btn-close btn-close-white"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p><strong>Shipping:</strong> We ship worldwide!
+                                Most
+                                orders are processed within 2–3 business days
+                                and
+                                include tracking information.</p>
+                            <p><strong>Returns:</strong> Returns and exchanges
+                                are
+                                accepted within 14 days of delivery. Crystals
+                                are
+                                delicate, so please handle them gently.</p>
+                            <p>For more details, reach out via our <a
+                                    href="contact.html"
+                                    class="text-white text-decoration-underline">Contact
+                                    page</a>.</p>
+                        </div>
+
+                        <div class="modal-footer border-top-light">
+                            <button type="button" class="btn btn-light"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--End Footer-->
+        </body>
+    </html>

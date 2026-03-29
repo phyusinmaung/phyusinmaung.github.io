@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eluna Crystal Shop</title>
+        <meta name="description"
+            content="Your go-to spot for stylish pieces that make you feel confident and effortlessly cute. From everyday essentials to statement outfits, we bring you trendy finds.">
+        <meta name="keywords"
+            content="crystal shop, crystal, Eluna, Eluna Crystal Shop ">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="EN">
+
+        <!--Nav Icon-->
+        <link rel="icon" href="images/Logo/logo.png">
+
+        <!--Custom Css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!--Icon-->
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <script src="fontawesome/js/all.min.js"></script>
+
+    </head>
+    <body id="web_background" style="padding-top: 70px;">
+
+        <!--Start Nav-->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <!--Logo-->
+                <a class="logo" href="index.html"><img
+                        src="images/Logo/rem_logo.png" alt></a>
+
+                <!-- Hamburger menu-->
+                <button class="navbar-toggler text-light" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end"
+                    id="mainNavbar">
+                    <ul class="navbar-nav mb-4 mb-lg-0">
+
+                        <!--Home-->
+                        <li class="nav-item me-3">
+                            <a class="nav-link nav_hover text-white"
+                                href="index.html">Home</a>
+                        </li>
+
+                        <!-- Crystals Dropdown -->
+                        <li class="nav-item dropdown me-3">
+                            <a
+                                class="nav-link nav_hover text-white dropdown-toggle"
+                                href="crystals.html"
+                                data-bs-toggle="dropdown">Crystals</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Raw
+                                        Crystals</a></li>
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Tower
+                                        Points</a></li>
+                                <li><a class="dropdown-item"
+                                        href="crystals.html">Suncatchers</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Zodiac
+                                        Necklaces</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Pendants</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Bracelets</a></li>
+                                <li><a class="dropdown-item"
+                                        href="jewelries.html">Necklaces</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Cleansing & Ritual Dropdown -->
+                        <li class="nav-item text-white dropdown me-3">
+                            <a
+                                class="nav-link nav_hover dropdown-toggle text-white"
+                                href="cleansing_products.html"
+                                data-bs-toggle="dropdown">Cleansing & Ritual</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Candles</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Bath
+                                        Salts</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Sage</a></li>
+                                <li><a class="dropdown-item"
+                                        href="cleansing_products.html">Incense</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Beauty Products -->
+                        <li class="nav-item me-3">
+                            <a class="nav-link nav_hover text-white"
+                                href="beauty.html">Beauty Products</a>
+                        </li>
+
+                        <!-- Crystal Properties -->
+                        <li class="nav-item me-3">
+                            <a class="nav-link active nav_hover text-white"
+                                href="properties.html">Crystal Care &
+                                Properties</a>
+                        </li>
+
+                        <!--Contact-->
+                        <li class="nav-item me-4">
+                            <a class="nav-link nav_hover text-white"
+                                href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Icons -->
+                    <div class="d-flex mb-4 mb-lg-0 list-unstyled">
+                        <li class="nav-item me-4"><a href="favorites.html"
+                                class="nav-link nav_hover text-white"
+                                title="Favourites"><i
+                                    class="fa-regular fa-heart fa-xl"></i></a>
+                        </li>
+                        <li class="nav-item me-4"><a href="login.html"
+                                class="nav-link nav_hover text-white"
+                                title="Login"><i
+                                    class="fa-regular fa-user fa-xl"></i></a>
+                        </li>
+                        <li class="nav-item me-4"><a href="cart.html"
+                                class="nav-link nav_hover text-white"
+                                title="Cart"><i
+                                    class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                        </li>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!--End Nav-->
+
+        <!--Start Properties-->
+        <div class="container text-white py-5">
+
+            <!-- Image -->
+            <div class="text-center mb-4">
+                <img src="images/Banner/crystals_product.jpg"
+                    class="img-fluid shadow"
+                    alt="">
+            </div>
+
+            <!-- Everything you need to know -->
+            <div class="text-center my-5">
+                <h2 class="fw-bold">
+                    Everything You Need to Know About Crystals
+                </h2>
+                <hr class="border-light w-100 mx-auto mb-3">
+                <p class="mt-3 fs-5">
+                    Crystals have been admired and valued for thousands of
+                    years, not only for their natural beauty but also for the
+                    meaning and symbolism people attach to them. Formed deep
+                    within the Earth over long periods of time, each crystal
+                    develops its own unique structure, color, and mineral
+                    composition. These natural differences are what give every
+                    stone its distinctive appearance and energetic associations.
+
+                    Many people are drawn to crystals for different reasons.
+                    Some appreciate them as decorative pieces that bring
+                    elegance and tranquility into a space, while others use them
+                    as tools for mindfulness, meditation, and intention-setting.
+                    Crystals are often associated with emotional balance,
+                    clarity, protection, love, confidence, and spiritual
+                    awareness. While experiences may vary from person to person,
+                    choosing a crystal that resonates with you can be a
+                    meaningful and personal journey. Learning about their
+                    properties and associations can help you make thoughtful
+                    choices that align with your intentions and lifestyle.
+                </p>
+            </div>
+
+            <!-- How to cleanse and charge -->
+            <div class="text-center mb-5">
+                <h3 class="fw-bold">
+                    How to Cleanse and Charge Your Crystals
+                </h3>
+                <hr class="border-light w-100 mx-auto mb-3">
+                <p class="mt-3 fs-5">
+                    Crystals are believed to absorb energy over time, which is
+                    why regular cleansing is recommended.
+                    You can cleanse them under moonlight, with smoke, sound, or
+                    water (if safe for the stone).
+                    To recharge, allow them to rest in a peaceful space or under
+                    the moon.
+                    Always check individual care instructions, as some crystals
+                    are sensitive to sunlight or water.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Crystal Section -->
+        <div class="container text-white py-5">
+
+            <!-- Amethyst -->
+            <div class="row align-items-center mb-5">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/amethyst_pebble_600x600.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Amethyst</h3>
+                    <p>
+                        Amethyst has been treasured since ancient times and was often associated with royalty and spiritual wisdom. The name comes from the Greek word “amethystos,” meaning “not intoxicated,” as it was once believed to promote clarity and protection. Throughout history, it has been used in jewelry, carvings, and sacred spaces for its rich purple beauty.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Inner peace, clarity,
+                            protection</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Capricorn, Pisces, Aquarius, Virgo </li>
+                        <li class="mb-2"><strong>Chakra :</strong> Third Eye, Crown</li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-wind"></i> / <i class="fa-solid fa-droplet"></i></li>
+                        <li class="mb-2"><strong>Care :</strong> Moonlight, smudging, sound
+                            cleansing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Rose Quartz (Image Right) -->
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/rose_quartz_pebble_cropped.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Rose Quartz</h3>
+                    <p>
+                        Rose Quartz has long been admired as a symbol of love and harmony. In ancient civilizations such as Egypt and Rome, it was used in jewelry and beauty rituals, and was believed to represent affection and emotional connection. Its soft pink hue has made it a timeless stone associated with tenderness and compassion.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Love, harmony, emotional
+                            balance</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Taurus, Libra</li>
+                        <li class="mb-2"><strong>Chakra :</strong> Heart</li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-droplet"></i> </li>
+                        <li class="mb-2"><strong>Care :</strong> Moonlight, gentle water
+                            rinse</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Carnelian -->
+            <div class="row align-items-center mb-5">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/carnelian_pebble_600x600.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Carnelian</h3>
+                    <p>
+                        Carnelian has been valued since ancient times and was often worn as a symbol of strength and courage. Its rich color and smooth texture have made it a timeless favorite in jewelry and decorative pieces.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Sociability, creative, courage</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Aries, Cancer, Leo, Virgo </li>
+                        <li class="mb-2"><strong>Chakra :</strong> Solar Plexus, Sacral, Root</li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-fire"></i> </li>
+                        <li class="mb-2"><strong>Care :</strong> Moonlight, smudging, water, sound
+                            cleansing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Citrine (Image Right) -->
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/citrine_pebble_600x600.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Citrine</h3>
+                    <p>
+                        Citrine has long been valued as a stone of abundance and joy. In ancient Greece and Rome, it was used in jewelry and amulets, believed to bring prosperity and protect against negativity. Its golden hues symbolize optimism, confidence, and creativity.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Good fortune, happiness, success</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Gemini, Libra, Aries, Leo</li>
+                        <li class="mb-2"><strong>Chakra :</strong> Sacral, Solar Plexus</li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-fire"></i> </li>
+                        <li class="mb-2"><strong>Care :</strong> Moonlight, gentle water
+                            rinse, smudging</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Clear Quartz -->
+            <div class="row align-items-center mb-5">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/clear_quartz_pebble_cropped.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Clear Quartz</h3>
+                    <p>
+                        Clear Quartz has long been admired for its clarity and beauty. In ancient Egypt and Greece, it was used in jewelry and carvings, valued for its pure, transparent appearance. Its timeless appeal has made it a popular stone throughout history.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Healing, cleansing, calmness</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> All </li>
+                        <li class="mb-2"><strong>Chakra :</strong> All </li>
+                        <li class="mb-2"><strong>Element :</strong> All </li>
+                        <li class="mb-2"><strong>Care :</strong> Moonlight, smudging, water, sound
+                            cleansing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Fluortie (Image Right) -->
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/fluorite_pebble_cropped.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Fluorite</h3>
+                    <p>
+                        Fluorite has long been appreciated for its striking colors and natural beauty. In ancient civilizations, it was carved into jewelry, amulets, and decorative objects, admired for its vibrant hues and crystal formations. Its visual appeal has made it a sought-after stone throughout history.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Protection, balance, stress relief, grounding</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Capricorn, Pisces</li>
+                        <li class="mb-2"><strong>Chakra :</strong> Crown, Third Eye, Throat, Heart</li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-droplet"></i> / <i class="fa-solid fa-wind"></i> </li>
+                        <li class="mb-2"><strong>Care :</strong> Moonlight, smudging, sound healing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Garnet -->
+            <div class="row align-items-center mb-5">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/garnet_pebble_cropped.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Garnet</h3>
+                    <p>
+                        Garnet has long been valued for its deep red color and brilliance. In ancient Egypt and Rome, it was used in jewelry, carvings, and signet rings, often symbolizing strength and protection. Its rich hue has made it a cherished gemstone across cultures and centuries.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Grounding, intuition, self empowerment, passion</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Capricorn, Aquarius </li>
+                        <li class="mb-2"><strong>Chakra :</strong> Root, Heart </li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-fire"></i> </li>
+                        <li class="mb-2"><strong>Care :</strong> Sun, smudging, water, sound
+                            cleansing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Green Aventurine (Image Right) -->
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/green_aventurine_pebble_600x600.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Green Aventurine</h3>
+                    <p>
+                        Green Aventurine has long been admired for its shimmering green tones. In ancient civilizations, it was used in jewelry and talismans, valued for its beauty and smooth texture. Its natural sparkle has made it a popular stone throughout history.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Luck, empathy, abundence</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Aries, Leo</li>
+                        <li class="mb-2"><strong>Chakra :</strong> Heart</li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-droplet"></i> / <i class="fa-solid fa-earth-americas"></i> / <i class="fa-solid fa-wind"></i> </li>
+                        <li class="mb-2"><strong>Care :</strong> Moonlight, smudging, sound healing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Moonstone -->
+            <div class="row align-items-center mb-5">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/moonstone_pebble_600x600.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Moonstone</h3>
+                    <p>
+                        Moonstone has long been treasured for its glowing, pearly sheen. In ancient Rome and India, it was used in jewelry and amulets, admired for its mystical appearance. Its luminous beauty has made it a beloved stone for centuries.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Emotional balance, feminine energy, healing</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Capncer, Scorpio, Libra </li>
+                        <li class="mb-2"><strong>Chakra :</strong> Crown, Third Eye </li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-droplet"></i> / <i class="fa-solid fa-wind"></i> </li>
+                        <li class="mb-2"><strong>Care :</strong> Moonlight, smudging, water, sound
+                            cleansing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tiger's Eye (Image Right) -->
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+
+                <!-- Image -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/Properties/tiger_eye_pebble_cropped.jpg"
+                        class="img-fluid w-100 rounded-circle shadow"
+                        style="max-width:400px;"
+                        alt="">
+                </div>
+
+                <!-- Text -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Tiger's Eye</h3>
+                    <p>
+                        Tiger’s Eye has long been admired for its rich golden-brown stripes and silky luster. In ancient Egypt and Rome, it was used in jewelry and amulets, valued for its striking appearance. Its unique chatoyancy has made it a popular stone throughout history.
+                    </p>
+
+                    <ul>
+                        <li class="mb-2"><strong>Properties :</strong> Grounding, protection, confidence</li>
+                            <li class="mb-2"><strong>Zodiac :</strong> Leo, Gemini, Capricorn</li>
+                        <li class="mb-2"><strong>Chakra :</strong> Solar Plexus</li>
+                        <li class="mb-2"><strong>Element :</strong> <i class="fa-solid fa-earth-americas"></i> </li>
+                        <li class="mb-2"><strong>Care :</strong> Sun, water, smudging </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!--End Properties-->
+
+        <!--Start Footer-->
+        <footer class="bg-dark text-white pt-4 pb-3">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-4 text-center text-md-start">
+                        <img src="images/Logo/rem_logo.png" alt class="w-50">
+                    </div>
+
+                    <div
+                        class="col-6 col-md-2 mb-4 text-center text-md-start pe-3">
+                        <h6 class="fw-bold">Shop</h6>
+                        <ul class="list-unstyled mt-3">
+                            <li><a href="crystals.html"
+                                    class="text-decoration-none nav_hover text-white">Crystals</a></li>
+                            <li><a href="cleansing_products.html"
+                                    class="text-decoration-none nav_hover text-white">Cleansing
+                                    & Ritual</a></li>
+                            <li><a href="beauty.html"
+                                    class="text-decoration-none nav_hover text-white">Beauty
+                                    Products</a></li>
+                            <li><a href="properties.html"
+                                    class="text-decoration-none nav_hover text-white">Crystal
+                                    Care & Properties</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-4 text-center text-md-start">
+                        <h6 class="fw-bold">Customer Support</h6>
+                        <ul class="list-unstyled mt-3">
+                            <li><a href="#"
+                                    class="text-light nav_hover text-decoration-none">FAQs</a></li>
+                            <li><a href="#"
+                                    class="text-light nav_hover text-decoration-none"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#shippingModal">Shipping
+                                    & Returns</a></li>
+                            <li><a href="contact.html"
+                                    class="text-light nav_hover text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="col-12 col-md-3 mb-4 text-center text-md-start">
+                        <h6 class="fw-bold">Follow Us</h6>
+                        <div
+                            class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+                            <a href="#" class="text-light fs-5"
+                                title="Facebook"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="text-light fs-5"
+                                title="Instagram"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="text-light fs-5"
+                                title="Telegram"><i
+                                    class="fa-brands fa-telegram"></i></a>
+                            <a href="#" class="text-light fs-5"
+                                title="Tiktok"><i
+                                    class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class="border-light border-opacity-25">
+                <div class="text-center small text-light">
+                    © 2026 Eluna. All rights reserved.
+                </div>
+
+            </div>
+        </footer>
+        <!--Shipping Modal-->
+        <div class="modal fade" id="shippingModal" tabindex="-1"
+            aria-labelledby="shippingModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark text-white">
+
+                    <div class="modal-header border-bottom-light">
+                        <h5 class="modal-title" id="shippingModalLabel">Shipping
+                            & Returns</h5>
+                        <button type="button" class="btn-close btn-close-white"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p><strong>Shipping:</strong> We ship worldwide! Most
+                            orders are processed within 2–3 business days and
+                            include tracking information.</p>
+                        <p><strong>Returns:</strong> Returns and exchanges are
+                            accepted within 14 days of delivery. Crystals are
+                            delicate, so please handle them gently.</p>
+                        <p>For more details, reach out via our <a
+                                href="contact.html"
+                                class="text-white text-decoration-underline">Contact
+                                page</a>.</p>
+                    </div>
+
+                    <div class="modal-footer border-top-light">
+                        <button type="button" class="btn btn-light"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--End Footer-->
+    </body>
+</html>
