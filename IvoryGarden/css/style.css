@@ -4,7 +4,7 @@
 }
 /* Start Navigation */
 
-/* Basic dropdown styling */
+/* Start dropdown */
 .navbar li {
     position: relative;
 }
@@ -34,6 +34,7 @@
     display: block;
 }
 
+/* End dropdown */
 
 .nav_text_bar{
     padding: 15px;
@@ -189,7 +190,7 @@
 .about_item{
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 30px;
+    grid-gap: 10px;
     padding: 0px 65px;
 }
 .about_text h3{
@@ -430,6 +431,12 @@
 .footer p{
     margin-top: 5px;
 }
+
+.footer img{
+    padding-top: 20px;
+    width: 250px;
+}
+
 .footer a {
   font-size: 14px;
   color: #555;
