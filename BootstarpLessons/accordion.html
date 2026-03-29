@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h1 class="text-center text-danger my-5">Accordion Lessons</h1>
+
+    <div class="container">
+        <div class="accordion" id="accordionParent">
+        <div class="accordion-item">
+            <h2 class="accordion-header"> 
+                <button class="accordion-button" data-bs-toggler="collapse" data-bs-target="#questionOne">
+                    What is Lorem Ipsum?
+                </button>
+            </h2>
+            <div class="collapse accordion-collapse show" id="questionOne" data-bs-parent="#accordionParent">
+                <div class="accordion-body">
+                    <p class="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, magnam suscipit. Adipisci porro culpa eum asperiores pariatur rem aspernatur inventore id fuga magni optio quam, consequatur dolores? Placeat, possimus minima.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header"> 
+                <button class="accordion-button" data-bs-toggler="collapse" data-bs-target="#questionTwo">
+                    What is bootstrap?
+                </button>
+            </h2>
+            <div class="collapse accordion-collapse" id="questionTwo" data-bs-parent="#accordionParent">
+                <div class="accordion-body">
+                    <p> 
+                        Bootstrap is a free and open-source CSS framework directed at reponsive, mobile-first front-end web development.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</body>
+</html>
