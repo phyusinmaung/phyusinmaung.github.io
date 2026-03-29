@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "oswald";
+    src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+*{
+    font-family: "oswald";
+}
+
+/* Start Nav Bar */
+
+.logo_img{
+    width: 150px;
+}
+
+.active{
+    color: #dc3545 !important ;
+}
+
+.nav_hover:hover{
+    color: #dc3545 !important;
+}
+
+.cart_noti{
+    position: relative;
+    top: -15px;
+    left: -11px;
+}
+
+/* End Nav Bar */
+
+/* Start Carousel */
+
+.carousel_image{
+    height: 67vh;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+/* End Carousel */
+
+/* Start Service */
+
+.service_icon{
+    width: 60px;
+    height: 60px;
+}
+
+.service_card:hover{
+    transform: translateY(-12px);
+    transition-duration: .3s;
+}
+
+/* End Service */
+
+/* Start Promotion */
+
+.title_underline{
+    width: 100px;
+    height: 3px;
+    background-color: #dc3545;
+}
+
+.favourite_btn{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Promotion */
+
+/* Start Category */
+
+.category_card img{
+    filter: brightness(80%);
+}
+
+.category_card img:hover{
+    filter: brightness(60%);
+    transition-duration: 0.3s;
+    transform: translateY(-10px);
+}
+
+/* End Category */
